@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+.view {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (50).jpg")no-repeat center center;
+    background-size: cover;
+}    
+.navbar {
+    z-index: 1;
+    background: transparent;
+}
+.intro {
+    min-height: 0;
+    position: relative;
+}
+
+.top-nav-collapse {
+    background-color: #6f7782;
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #6f7782;
+    }
+}
+.hr-light {
+    border-top: 3px solid #fff;
+    width: 80px;
+}
+.section img {
+    max-width: 100%;
+    height: auto;
+}
+.view-noticias {
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+}
